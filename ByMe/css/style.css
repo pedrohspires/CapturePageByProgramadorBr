@@ -1,0 +1,112 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0 15vw 0 15vw;
+    background-color: black;
+    color: white;
+}
+
+header{
+    width: 100%;
+    background-color: #30aece;
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+main{
+    padding: 20px;
+    background-image: url("../images/people.jpg");
+    background-size: cover;
+    overflow: hidden;
+}
+
+.form-container{
+    width: 250px;
+    background-color: #ffffffaa;
+    color: black;
+    padding: 15px;
+    float: right;
+}
+
+.header-form{
+    font-weight: 700;
+    font-size: 1.1em;
+    margin-top: 0;
+}
+
+.header-form, .details-form{
+    line-height: 1em;
+}
+
+input, select{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    color: white;
+    background-color: #30aece;
+    font-weight: bold;
+}
+
+footer{
+    background-color: #1b1d1d;
+    padding: 50px 5vw;
+}
+
+.panelist-img{
+    width: 160px;
+}
+
+.text{
+    display: inline-block;
+    max-width: 60%;
+    line-height: 1em;
+    padding-left: 40px;
+}
+
+.title{
+    margin-bottom: 50px;
+    font-weight: bold;
+}
+
+.presentation{
+    margin-bottom: 20px;
+}
+
+/* 
+    Media query para quando a tela for menor que 950px
+*/
+@media screen and (max-width: 950px){
+    body{
+        padding: 0;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    .form-container{
+        float: none;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    footer{
+        text-align: center;
+    }
+
+    .text{
+        line-height: 1em;
+        padding-left: 0;
+        padding-top: 50px;
+    }
+
+    .title{
+        margin-bottom: 10px;
+    }
+}
