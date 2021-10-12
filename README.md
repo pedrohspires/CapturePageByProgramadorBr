@@ -9,7 +9,7 @@ Este repositório contém uma página de captura proposta no curso de Desenvolve
 * CSS Intermediário: display, positions, alinhamentos, float, viewport, responsividade, media querys, etc.
 * HTML Intermediário: formulários, tipos de inputs, tags semânticas e novos inputs do HTML 5, etc.<br><br>
 
-![Página de Captura](./img/projeto.png)
+![Página de Captura (print tirada do meu projeto)](./img/projeto.png)
 
 ## Estrutura do repositório
 Para diferenciar o código que fiz com o que aprendi e as minhas pesquisas, o repositório contará com duas pastas:
