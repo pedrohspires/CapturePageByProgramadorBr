@@ -1,6 +1,7 @@
 # CapturePageByProgramadorBr
 ### Pedro Henrique <br>Desenvolvedor Web Full Stack<br><br>
 
+
 ## Descrição
 Este repositório contém uma página de captura proposta no curso de Desenvolvedor Full Stack. Os assuntos estudados no curso para obter o resultado dessa página foram:<br>
 * HTML Básico: estrutura básica, conceito de tag, títulos, parágrafos, formatação, listas, tabelas, etc.
@@ -8,6 +9,7 @@ Este repositório contém uma página de captura proposta no curso de Desenvolve
 * CSS Intermediário: display, positions, alinhamentos, float, viewport, responsividade, media querys, etc.
 * HTML Intermediário: formulários, tipos de inputs, tags semânticas e novos inputs do HTML 5, etc.<br><br>
 
+![Página de Captura](./img/projeto.png)
 
 ## Estrutura do repositório
 Para diferenciar o código que fiz com o que aprendi e as minhas pesquisas, o repositório contará com duas pastas:
